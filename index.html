@@ -1,45 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My dizzy Document</title>
-</head>
-<body>
-    <h1>Background</h1>
-    <p>Both my parents were born in <strong>Ghana</strong> located in West Africa but met in America. <br>
-        <img src = "img/closeup-shot-waving-flag-ghana-with-interesting-textures.jpg" alt = "Ghana National Flag" width = "200" height = "100">
-    </p>
-    <a href = "https://en.wikipedia.org/wiki/West_Africa" target = _self>More info about <strong>West Africa</strong></a>
-    <br><a href = "https://en.wikipedia.org/wiki/Ghana" target =  _blank>More info about Ghana</a>
-    <h1>Family</h1>
-    <p>Along with my parents, there is me, my sister <em> Annabel</em>, and my brother <em>James</em>. 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    </p>
-    <h1> Table of Friends</h1>
-    <table>
-        <thead>
-            <th> Name</th>
-            <th> Age</th>
-            <th> Grade</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Samuel</td>
-                <td>18</td>
-                <td>12</td>
-            </tr>
-            <tr>
-                <td>Zachary</td>
-                <td>17</td>
-                <td>12</td>
-            </tr>
-            <tr>
-                <td>Kevin</td>
-                <td>17</td>
-                <td>12</td>
-            </tr>
-        </tbody>
-    </table>
+</head>
+
+<body>
+    <div class="container row-lg-1 bg-primary">
+        <h1>Background</h1>
+        <p>Both my parents were born in <strong>Ghana</strong> located in West Africa but met in America. <br>
+            <img src="img/closeup-shot-waving-flag-ghana-with-interesting-textures.jpg" alt="Ghana National Flag"
+                class="rounded-circle" width="200" height="100">
+            <img src="img/closeup-shot-waving-flag-ghana-with-interesting-textures.jpg" alt="Ghana National Flag"
+                class="img-thumbnail" width="200" height="100">
+            <img src="img/closeup-shot-waving-flag-ghana-with-interesting-textures.jpg" alt="Ghana National Flag"
+                class="rounded" width="200" height="100">
+        </p>
+        <a href="https://en.wikipedia.org/wiki/West_Africa" target=_self>More info about <strong>West
+                Africa</strong></a>
+        <br><a href="https://en.wikipedia.org/wiki/Ghana" target=_blank>More info about Ghana</a>
+    </div>
+    <div class="container row-lg-2 bg-secondary">
+        <h1 class="text-info">Family</h1>
+        <p>Along with my parents, there is me, my sister <em> Annabel</em>, and my brother <em>James</em>.</p>
+        <div class="col-lg-3 ">
+            <p>Me</p>
+        </div>
+        <div class="col-lg-3">
+            <p>Sister</p>
+        </div>
+        <div class="col-lg-3">
+            <p>Brother</p>
+        </div>
+        <div Class="col-lg-3">
+            <p>Father</p>
+        </div>
+        <div Class="col-lg-3">
+            <p>Mother</p>
+        </div>
+        <div class="alert alert-danger alert-dismissible fade show">
+            <p><strong>Fun Fact:</strong> One of my siblings are a new years baby</p>
+        </div>
+        <div class="alert alert-warning alert-dismissible fade show">
+            <p><strong>Fun Fact:</strong> One of my siblings are not a new years baby</p>
+        </div>
+        <button type="button" class="btn btn-dark">RUN!!</button>
+        <button type="button" class="btn btn-light active" value="Submit Button">I SAID RUN!!!</button>
+        <button type="button" class="btn btn-outline-info" value="Reset Button">I SAID RUN!!!</button>
+
+        <div class="btn-group btn-group-lg">
+            <button type="button" class="btn btn-dark">UUHH</button>
+            <button type="button" class="btn btn-light active" value="Submit Button">ABC</button>
+            <button type="button" class="btn btn-outline-info" value="Reset Button">DEF</button>
+        </div>
+
+        <div class="btn-group btn-group-lg">
+            <button type="button" class="btn btn-dark">GHI</button>
+            <button type="button" class="btn btn-light active" value="Submit Button">JKL</button>
+            <button type="button" class="btn btn-outline-info" value="Reset Button">MNS</button>
+        </div>
+
+        <div class="row-lg-3">
+            <span class="badge bg-dark">I am ANGRY</span>
+            <span class="badge rounded-pill bg-dark">I am ANGRY/Rounder</span>
+        </div>
+        <div>
+            <div class="Uploading Anger Document">
+                <div class="progress-bar bg-success" style="width:88%">88%</div>
+            </div>
+
+            <div class="Uploading Happy Document">
+                <div class="progress-bar progress-bar-striped bg-danger" style="width:44%">44%</div>
+            </div>
+        </div>
+       
+        <div class="spinner-border text-muted"></div>
+        <div class="spinner-grow text-primary"></div>
+
+        <p><abbr>Extra</abbr> <small>informaiton</small> that <display-1>doesn't</display-1> <mark>need</mark> to make
+            sense
+        <blockquote>Mr.Harbert</blockquote>
+        </p>
+
+
+    </div>
+    <div class="container row-lg-3 bg-info">
+        <h1 class="text-danger"> Table of Friends</h1>
+        <table class="table">
+            <thead>
+                <th> Name</th>
+                <th> Age</th>
+                <th> Grade</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Samuel</td>
+                    <td>18</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>Zachary</td>
+                    <td>17</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>Kevin</td>
+                    <td>17</td>
+                    <td>12</td>
+                </tr>
+            </tbody>
+        </table>
+        <h1 class="text-warning"> Striped Table of Friends</h1>
+        <table class="table table-striped">
+            <thead>
+                <th> Name</th>
+                <th> Age</th>
+                <th> Grade</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Samuel</td>
+                    <td>18</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>Zachary</td>
+                    <td>17</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>Kevin</td>
+                    <td>17</td>
+                    <td>12</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
 </body>
+
 </html>
